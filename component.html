@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>บทเรียนเบื้องต้น</title>
+<style type="text/css">
+body {
+    background-color: #3B5669;
+}
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('file:///C|/Users/admin/Downloads/images/หน้าเเรก (1).jpg','image/2.jpg','image/4.jpg','image/8.jpg','image/6.jpg')">
+<table width="1600" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody>
+	    <tr>
+	      <td height="22" colspan="2"><img src="image/คอมพิวเตอร์เบื้องต้น.jpg" width="1600" height="200" alt=""/></td>
+        </tr>
+	    <tr>
+	      <td height="19" colspan="2" bgcolor="#3B5669"><marquee direction="left" style="color: #FCFCFC" >
+	        ยินดีต้อนรับเข้าสู่บทเรียนเครือข่าย เรื่อง คอมพิวเตอร์เบื้องต้น
+	      </marquee></td>
+    </tr>
+	    <tr>
+	      <td width="255" align="center" valign="top"><table width="250" border="0" cellspacing="0" cellpadding="0">
+	        <tbody>
+	          <tr>
+	            <td height="60"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','image/2.jpg',1)"><img src="image/1.jpg" alt="" width="250" height="50" id="Image2"></a></td>
+              </tr>
+	          <tr>
+	            <td height="63"><a href="process.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','image/4.jpg',1)"><img src="image/3.jpg" alt="" width="250" height="50" id="Image3"></a></td>
+              </tr>
+	          <tr>
+	            <td height="68"><a href="component.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','image/8.jpg',1)"><img src="image/7.jpg" alt="" width="250" height="50" id="Image4"></a></td>
+              </tr>
+	          <tr>
+	            <td><a href="assembling.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','image/6.jpg',1)"><img src="image/5.jpg" alt="" width="250" height="52" id="Image5"></a></td>
+              </tr>
+            </tbody>
+          </table></td>
+	      <td width="1345" valign="top" bgcolor="#FFFFFF"><table width="95%" border="1" align="center">
+	        <tbody>
+	          <tr>
+	            <td align="left" valign="top"><p style="font-size: 24px"><strong>หลักการทำงาน</strong></p>
+	              <p style="font-size: 16px">&nbsp; <span style="font-size: 16px">&nbsp; &nbsp;การทำงานของคอมพิวเตอร์จะเริ่มจากผู้ใช้ป้อนข้อมูลผ่านทางอุปกรณ์ของหน่วยรับเข้า (Input device) เช่น คีย์บอร์ด เมาส์ ข้อมูลจะถูกเปลี่ยนให้เป็นสัญญาณดิจิทัล ประกอบด้วยเลข 0 และ 1 แล้วส่งต่อไปยังหน่วยประมวลผลกลาง เพื่อประมวลผลตามคำสั่ง ในระหว่างการประมวลผลข้อมูลจะถูกเก็บไว้ที่ (Random Access Memory: RAM) ทำหน้าที่เก็บข้อมูลจากการประมวลผลเป็นการชั่วคราว ขณะเดียวกัน อาจมีคำสั่งให้นำผลลัพธ์จากการประมวลผลดังกล่าวไปแสดงผลผ่านทางอุปกรณ์ผ่านทางอุปกรณ์ของหน่วยส่งออก เช่น จอภาพ หรือ เครื่องพิมพ์ นอกจากนี้เราสามารถบันทึกข้อมูลที่อยู่ในอนาคต โดยการอ่านข้อมูลที่บันทึกในสื่อดังกล่าวผ่านทางเครื่องขับหรือไดร์ฟ (drive) การส่งผ่านข้อมูลไปยังหน่วยต่างๆ ภายในระบบคอมพิวเตอร์จะผ่านทางระบบบัส (bus) อุปกรณ์ของหน่วยรับเข้าและส่งออก จะเชื่อมต่อกับตัวเครื่องที่เรียกว่า ซิสเต็มยูนิต (System unit) มี เคส (case) เป็นโครงยืดให้อุปกรณ์ต่างๆประกอบกัน ภายในเคสจะมีเมนบอร์ด (Mainboard) เป็นแผนวงจรหลัก โดยซีพียู หน่วยความจำ การ์ด รวมถึงอุปกรณ์ต่างๆ จะถูกต่อกับเมนบอร์ดนี้ทั้งสิ้น</span></p>
+	              <p style="font-size: 16px">&nbsp;</p>
+	              <center><img src="image/หลักการทำงาน 1.png" width="664" height="294" alt=""/></center>
+<p style="font-size: 16px">&nbsp; &nbsp;ระบบการทํางานของคอมพิวเตอร์ มีหน่วยพื้นฐาน 5 หน่วย คือ&nbsp;</p>
+	              <p style="font-size: 16px">1. หน่วยรับข้อมูล (Input Unit) ทําหน้าที่ในการรับข้อมูลหรือคําสั่งจากภายนอกเข้าไปเก็บไว้ในหน่วยความจํา เพื่อเตรียมประมวลผลข้อมูลที่ต้องการ ซึ่งอุปกรณ์ที่ใช้ในการนําข้อมูลที่ใช้กันอยู่ตั้งแต่อดีตจนถึงปัจจุบันนั้น มีอยู่หลายประเภทด้วยกันสําหรับอุปกรณ์ที่นิยมใช้ในปัจจุบันมีดังต่อไปนี้ - คีย์บอร์ด (Keyboard) - เมาส์ (Mouse) - สแกนเนอร์ (Scanner)&nbsp;</p>
+	              <p style="font-size: 16px">2. หน่วยประมวลผลกลาง (Central Processing Unit) ทําหน้าที่ในการคํานวณและประมวลผล แบ่งออกเป็น 2 หน่วยย่อย คือ - หน่วยควบคุม ทําหน้าที่ในการดูแล ควบคุมลําดับขั้นตอนของการประมวลผล และการทํางานของอุปกรณ์ต่างๆ ภายในหน่วยประมวลผลกลาง และช่วยประสานงานระหว่างหน่วยประมวลผลกลาง กับอุปกรณ์นําเข้าข้อมูล อุปกรณ์ในการแสดงผล และหน่วยความจําสํารอง - หน่วยคํานวณและตรรก ทําหน้าที่ในการคํานวณและเปรียบเทียบข้อมูลต่างๆ ที่ส่งมาจากหน่วยควบคุม และหน่วยความจํา&nbsp;</p>
+	              <p style="font-size: 16px">3. หน่วยความจําหลัก (Main Memory) ทําหน้าที่ในการเก็บข้อมูลหรือคําสั่งต่างๆ ที่รับจากภายนอกเข้ามาเก็บไว้ เพื่อประมวลผลและยังเก็บผลที่ได้จากการประมวลผลไว้เพื่อแสดงผลอีกด้วย ซึ่งแบ่งออกเป็น หน่วยความจํา เป็นหน่วยความจําที่มีอยู่ ในตัวเครื่องคอมพิวเตอร์ ทําหน้าที่ในการเก็บคําสั่งหรือข้อมูล แบ่งออกเป็น&nbsp;</p>
+	              <p style="font-size: 16px">- รอม (ROM) หน่วยความจําแบบถาวร&nbsp;</p>
+	              <p style="font-size: 16px">- แรม (RAM) หน่วยความจําแบบชั่วคราว&nbsp;</p>
+	              <p style="font-size: 16px">4. หน่วยความจํารอง (Secondedata Storage) ทำหน้าที่จัดเก็บข้อมูลและโปรแกรมต่างๆ เพื่อนำมาใช้อีกครั้งภายหลัง แม้จะปิดเครื่องคอมพิวเตอร์ข้อมูลและโปรแกรมที่จัดเก็บไว้จะไม่สูญหาย&nbsp;</p>
+	              <p style="font-size: 16px">- Disk Drive&nbsp;</p>
+	              <p style="font-size: 16px">- Hard Drive&nbsp;</p>
+	              <p style="font-size: 16px">- CD-Rom&nbsp;</p>
+                  <p style="font-size: 16px">- Magnetic Tape&nbsp;</p>
+                  <p style="font-size: 16px">- Card Reader&nbsp;</p>
+                  <p style="font-size: 16px">5. หน่วยแสดงผล (Output Unit) ทําหน้าที่ในการแสดงผลลัทธ์ที่ได้หลังจากการคํานวณและประมวลผล สําหรับอุปกรณ์ที่ ทําหน้าที่ในการแสดงผลข้อมูลที่ได้นั้นมีต่อไปนี้&nbsp;</p>
+                  <p style="font-size: 16px">- Monitor จอภาพ&nbsp;</p>
+                  <p style="font-size: 16px">- Printer เครื่องพิมพ์&nbsp;</p>
+                  <p style="font-size: 16px">- Plotter เครื่องพิมพ์ที่ใช้ปากกาในการเขียนข้อมูลต่างๆ ที่ต้องการลงกระดาษ&nbsp; &nbsp;</p>
+<p style="font-size: 16px">&nbsp;</p>
+	              <center></center>
+<p style="font-size: 24px">&nbsp;</p>
+                <p>&nbsp;</p></td>
+              </tr>
+            </tbody>
+          </table></td>
+        </tr>
+	    <tr>
+	      <td colspan="2">&nbsp;</td>
+        </tr>
+  </tbody>
+</table>
+</body>
+</html>
